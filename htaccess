@@ -1,0 +1,99 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page30673313.html
+
+RewriteEngine On
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =http
+RewriteRule ^(.*)$ https://legacycultivation\.co/$1 [R=301,L]
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =https
+RewriteCond %{HTTP_HOST} ^www\.legacycultivation.co [NC]
+RewriteRule ^(.*)$ https://legacycultivation\.co/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^oldhome$ page22745109.html [NC]
+RewriteRule ^oldhome/$ page22745109.html [NC]
+
+RewriteRule ^crashcoursebranding$ page24136777.html [NC]
+RewriteRule ^crashcoursebranding/$ page24136777.html [NC]
+
+RewriteRule ^purple-gelato1$ page29427072.html [NC]
+RewriteRule ^purple-gelato1/$ page29427072.html [NC]
+
+RewriteRule ^terms$ page22912703.html [NC]
+RewriteRule ^terms/$ page22912703.html [NC]
+
+RewriteRule ^privacy$ page22912804.html [NC]
+RewriteRule ^privacy/$ page22912804.html [NC]
+
+RewriteRule ^rulesnov2021$ page23166180.html [NC]
+RewriteRule ^rulesnov2021/$ page23166180.html [NC]
+
+RewriteRule ^minimum_branding$ page23930028.html [NC]
+RewriteRule ^minimum_branding/$ page23930028.html [NC]
+
+RewriteRule ^resources$ page23930235.html [NC]
+RewriteRule ^resources/$ page23930235.html [NC]
+
+RewriteRule ^successpage$ page24165213.html [NC]
+RewriteRule ^successpage/$ page24165213.html [NC]
+
+RewriteRule ^gelato-41$ page29427085.html [NC]
+RewriteRule ^gelato-41/$ page29427085.html [NC]
+
+RewriteRule ^lemon-cherry-gelato$ page29427057.html [NC]
+RewriteRule ^lemon-cherry-gelato/$ page29427057.html [NC]
+
+RewriteRule ^terpenes$ page29916456.html [NC]
+RewriteRule ^terpenes/$ page29916456.html [NC]
+
+RewriteRule ^definition-of-cannabinoids$ page30077229.html [NC]
+RewriteRule ^definition-of-cannabinoids/$ page30077229.html [NC]
+
+RewriteRule ^myrcene$ page30621201.html [NC]
+RewriteRule ^myrcene/$ page30621201.html [NC]
+
+RewriteRule ^benefits-of-medical-marijuanas$ page30621260.html [NC]
+RewriteRule ^benefits-of-medical-marijuanas/$ page30621260.html [NC]
+
+RewriteRule ^trichomes$ page30621335.html [NC]
+RewriteRule ^trichomes/$ page30621335.html [NC]
+
+RewriteRule ^downloads$ page30702016.html [NC]
+RewriteRule ^downloads/$ page30702016.html [NC]
+
+RewriteRule ^caryophyllene$ page30880688.html [NC]
+RewriteRule ^caryophyllene/$ page30880688.html [NC]
+
+RewriteRule ^linalool$ page31143325.html [NC]
+RewriteRule ^linalool/$ page31143325.html [NC]
+
+RewriteRule ^purple-punch$ page31799561.html [NC]
+RewriteRule ^purple-punch/$ page31799561.html [NC]
+
+RewriteRule ^mac1$ page32158462.html [NC]
+RewriteRule ^mac1/$ page32158462.html [NC]
+
+RewriteRule ^universal-symbol$ page32158665.html [NC]
+RewriteRule ^universal-symbol/$ page32158665.html [NC]
+
+RewriteRule ^sour-cookies$ page32182094.html [NC]
+RewriteRule ^sour-cookies/$ page32182094.html [NC]
+
+RewriteRule ^purple-gelato$ page32540099.html [NC]
+RewriteRule ^purple-gelato/$ page32540099.html [NC]
+
+RewriteRule ^projectfive$ page34131123.html [NC]
+RewriteRule ^projectfive/$ page34131123.html [NC]
+
+RewriteRule ^chemdawg4$ page36456871.html [NC]
+RewriteRule ^chemdawg4/$ page36456871.html [NC]
+
+RewriteRule ^georgia-pine-strain$ page37280481.html [NC]
+RewriteRule ^georgia-pine-strain/$ page37280481.html [NC]
+
+
